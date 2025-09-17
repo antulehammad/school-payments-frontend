@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --brand: #2563eb; }
+.bg-brand { background-color: var(--brand); }
+.text-brand { color: var(--brand); }
+
+/* small tweaks for dark date inputs */
+html.dark input[type="date"] { background-color: #334155; color: #e6eef8; border-color: #475569; }
